@@ -1,5 +1,5 @@
 # Set Working Directory for Research Seminar
-setwd("C:/Users/Cedric/Desktop/Uni/19_FS/Research Seminar/R_WD")
+setwd("C:/...")
 
 library(openxlsx)
 # library(ggplot2)
@@ -108,7 +108,7 @@ USD_CHF_2 <- USD_CHF_Copy[(n_rows-56):n_rows,]
 date <- as.Date(USD_CHF_2$date, format = "%d.%m.%Y")
 USD_CHF_FC_Output <- data.frame(date, fcast)
 colnames(USD_CHF_FC_Output) <- c("date", "Arima")
-write.xlsx(USD_CHF_FC_Output, "C:/Users/Cedric/Desktop/Uni/19_FS/Research Seminar/Final/Rolling_5D_Arima_USD_CHF.xlsx", sheetName="Rolling_5D_Arima_USD_CHF",  col.names=TRUE,  append=FALSE)
+write.xlsx(USD_CHF_FC_Output, "C:/.../Rolling_5D_Arima_USD_CHF.xlsx", sheetName="Rolling_5D_Arima_USD_CHF",  col.names=TRUE,  append=FALSE)
 
 
 
