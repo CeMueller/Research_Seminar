@@ -1,6 +1,6 @@
 This code was used for the Research Seminar in the Master in Banking and Finance at the University of St. Gallen.
-The analysed FOREX trading pairs are CHF / USD and CHF / MXN. Only the code for CHF / MXN is uploaded.
-Subsequently, the abstract of the resulting paper
+The analysed FOREX trading pairs are CHF / USD and CHF / MXN. Only the code for CHF / USD is uploaded.
+Subsequently, the abstract of the resulting paper to provide a bit of context.
 
 ## Abstract
 Foreign exchange rates are notoriously difficult to predict. Decades of research in this realm has shown that no single method exists, 
